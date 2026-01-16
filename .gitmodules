@@ -1,8 +1,12 @@
-[submodule "embassy"]
-	path = embassy
-	url = https://github.com/jeremydub/embassy.git
-    branch = tsch-milestone1
-[submodule "dot15d4"]
-	path = dot15d4
+[submodule "milestone2/dot15d4"]
+	path = milestone2/dot15d4
 	url = https://github.com/jeremydub/dot15d4.git
+    branch = milestone2
+[submodule "milestone1/dot15d4"]
+	path = milestone1/dot15d4
+	url = https://github.com/jeremydub/dot15d4.git
+	branch = tsch-milestone1
+[submodule "milestone1/embassy"]
+	path = milestone1/embassy
+	url = https://github.com/jeremydub/embassy.git
     branch = tsch-milestone1
